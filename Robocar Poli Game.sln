@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robocar Poli Game", "Robocar Poli Game.csproj", "{1DF11BFE-0D5F-DD42-30FD-EF16C5DC291E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robocar Poli Game.Plugins", "Robocar Poli Game.Plugins.csproj", "{7D9E49B2-9D9D-638A-82A3-78980E53915F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Robocar Poli Game.Editor", "Robocar Poli Game.Editor.csproj", "{69ED0111-5539-7DF9-7F14-CF1413E0C405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DF11BFE-0D5F-DD42-30FD-EF16C5DC291E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DF11BFE-0D5F-DD42-30FD-EF16C5DC291E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DF11BFE-0D5F-DD42-30FD-EF16C5DC291E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DF11BFE-0D5F-DD42-30FD-EF16C5DC291E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9E49B2-9D9D-638A-82A3-78980E53915F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9E49B2-9D9D-638A-82A3-78980E53915F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9E49B2-9D9D-638A-82A3-78980E53915F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9E49B2-9D9D-638A-82A3-78980E53915F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69ED0111-5539-7DF9-7F14-CF1413E0C405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69ED0111-5539-7DF9-7F14-CF1413E0C405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69ED0111-5539-7DF9-7F14-CF1413E0C405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69ED0111-5539-7DF9-7F14-CF1413E0C405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

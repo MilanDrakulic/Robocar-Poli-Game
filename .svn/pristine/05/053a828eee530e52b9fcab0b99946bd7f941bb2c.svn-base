@@ -1,0 +1,50 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace EMM_Integration
+{
+    public class EndScreenTrigger : MonoBehaviour
+    {
+		private EndScreen endScreen;
+		private Timer timer;
+		private StarsCalculator starsCalculator;
+
+		// Use this for initialization
+		void Start()
+        {
+			starsCalculator = FindObjectOfType<StarsCalculator>();
+		}
+
+		private void OnTriggerEnter2D(Collider2D collision)
+		{
+			if (collision.tag == "Player")
+			{
+				if (endScreen == null)
+				{
+					endScreen = FindObjectOfType<EndScreen>();
+				}
+				if (timer == null)
+				{
+					timer = FindObjectOfType<Timer>();
+				}
+
+				endScreen.ActivateEndScreenGameObject();
+				if (starsCalculator == null)
+				{
+					starsCalculator = FindObjectOfType<StarsCalculator>();
+				}
+
+				timer.Stop();
+
+				//Unfortunatelly, this code is dependent on order of items on EndScreen script
+				endScreen.itemsConfiguration[0].ItemValueString = timer.timerLabel.text.ToString();
+				if (endScreen.itemsConfiguration[1] != null)
+					endScreen.itemsConfiguration[1].ItemValueInt = starsCalculator.CalculatePoints();
+				starsCalculator.DisplayStars();
+
+				endScreen.generateItems();
+			}
+		}
+    }
+}

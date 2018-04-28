@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 90977ade6f4efe4438b816664e9b9007
+timeCreated: 1514382616
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Comic Jens Free Pro
+  fontNames:
+  - Comic Jens Free Pro
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
